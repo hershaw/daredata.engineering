@@ -6261,7 +6261,10 @@ h2 {
   color: #e6c439; }
 
 .header {
-  margin-top: 8px;
+  margin-top: 12px;
   margin-bottom: 4px; }
+
+.content {
+  margin-bottom: 100px; }
 
 /*# sourceMappingURL=daredata.css.map */

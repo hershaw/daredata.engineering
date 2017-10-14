@@ -1,10 +1,13 @@
 
 
+$primary: #e6c439;
+$secondary: #193a35;
+
 // Semantic color scheme
 @import url('https://fonts.googleapis.com/css?family=Montserrat'); 
 $theme-colors: (
-  primary: #e6c439,
-  secondary: #004EA3,
+  primary: $primary,
+  secondary: $secondary,
   success: #28a745,
   info: #00fbff,
   warning: #ffc107,
@@ -29,10 +32,10 @@ $enable-print-styles:       true !default;
 //
 // Theme settings.
 
-$body-bg: white;
+$body-bg: $secondary;
 
 
-$body-color: #292b2c;
+$body-color: white;
 $body-color-inverse: invert($body-color) !default;
 $link-color: #e6c439;
 
@@ -100,14 +103,6 @@ body > * {
   }
 }
 
-.question-list {
-	font-size: 20px;
-  list-style-type: none;
-  li {
-  	padding: 8px 0px;
-  }
-}
-
 h2 {
-  color: #e6c439;
+  color: $primary;
 }

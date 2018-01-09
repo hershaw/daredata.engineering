@@ -1,0 +1,5 @@
+Sitemap: http://londontolisbon.com/sitemap.xml
+Sitemap: http://londontolisbon.com/news-sitemap.xml
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
